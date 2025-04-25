@@ -1,0 +1,12 @@
+[project]
+name = "lancdb-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "lancedb>=0.21.2",
+    "mcp[cli]>=1.6.0",
+    "pandas>=2.2.3",
+    "sentence-transformers>=4.1.0",
+]
