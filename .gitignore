@@ -8,3 +8,26 @@ wheels/
 
 # Virtual environments
 .venv
+
+# VSCode workspace files
+*.code-workspace
+
+# Log files
+logs/*.log
+logs/*.log.*
+!logs/.gitkeep
+
+# pytest cache
+.pytest_cache/
+
+# Cursor IDE files
+.cursor/
+
+# Coverage files
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
